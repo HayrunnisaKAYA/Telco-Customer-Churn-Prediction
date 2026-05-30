@@ -1,0 +1,62 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     Telco_Churn_Temiz
+Instances:    7043
+Attributes:   20
+              gender
+              SeniorCitizen
+              Partner
+              Dependents
+              tenure
+              PhoneService
+              MultipleLines
+              InternetService
+              OnlineSecurity
+              OnlineBackup
+              DeviceProtection
+              TechSupport
+              StreamingTV
+              StreamingMovies
+              Contract
+              PaperlessBilling
+              PaymentMethod
+              MonthlyCharges
+              TotalCharges
+              Churn
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 1.11 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5549               78.7874 %
+Kappa statistic                          0.415 
+Mean absolute error                      0.2719
+Root mean squared error                  0.3812
+Relative absolute error                 69.738  %
+Root relative squared error             86.3322 %
+Total Number of Instances             7043     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,895    0,509    0,830      0,895    0,861      0,420    0,822     0,924     No
+                 0,491    0,105    0,629      0,491    0,551      0,420    0,822     0,621     Yes
+Weighted Avg.    0,788    0,402    0,776      0,788    0,779      0,420    0,822     0,843     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4632  542 |    a = No
+  952  917 |    b = Yes
+

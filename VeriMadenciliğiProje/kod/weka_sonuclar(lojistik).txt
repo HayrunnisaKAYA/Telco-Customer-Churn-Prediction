@@ -1,0 +1,150 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     Telco_Churn_Temiz
+Instances:    7043
+Attributes:   20
+              gender
+              SeniorCitizen
+              Partner
+              Dependents
+              tenure
+              PhoneService
+              MultipleLines
+              InternetService
+              OnlineSecurity
+              OnlineBackup
+              DeviceProtection
+              TechSupport
+              StreamingTV
+              StreamingMovies
+              Contract
+              PaperlessBilling
+              PaymentMethod
+              MonthlyCharges
+              TotalCharges
+              Churn
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                             Class
+Variable                                        No
+==================================================
+gender=Male                                 0.0219
+SeniorCitizen                              -0.2156
+Partner=No                                 -0.0019
+Dependents=Yes                              0.1518
+tenure                                      0.0603
+PhoneService=Yes                           -0.1832
+MultipleLines=No phone service              0.1832
+MultipleLines=No                            0.1885
+MultipleLines=Yes                          -0.2587
+InternetService=DSL                         0.7936
+InternetService=Fiber optic                -0.9587
+InternetService=No                          0.3367
+OnlineSecurity=No                          -0.2182
+OnlineSecurity=Yes                         -0.0127
+OnlineSecurity=No internet service          0.3367
+OnlineBackup=Yes                           -0.1344
+OnlineBackup=No                            -0.1088
+OnlineBackup=No internet service            0.3367
+DeviceProtection=No                        -0.0506
+DeviceProtection=Yes                        -0.198
+DeviceProtection=No internet service        0.3367
+TechSupport=No                             -0.2065
+TechSupport=Yes                            -0.0269
+TechSupport=No internet service             0.3367
+StreamingTV=No                              0.1736
+StreamingTV=Yes                            -0.4175
+StreamingTV=No internet service             0.3367
+StreamingMovies=No                          0.1803
+StreamingMovies=Yes                        -0.4222
+StreamingMovies=No internet service         0.3367
+Contract=Month-to-month                    -0.6082
+Contract=One year                            0.057
+Contract=Two year                           0.7721
+PaperlessBilling=No                         0.3421
+PaymentMethod=Electronic check             -0.2469
+PaymentMethod=Mailed check                  0.1162
+PaymentMethod=Bank transfer (automatic)     0.0583
+PaymentMethod=Credit card (automatic)       0.1451
+MonthlyCharges                              0.0405
+TotalCharges                               -0.0003
+Intercept                                  -1.7038
+
+
+Odds Ratios...
+                                             Class
+Variable                                        No
+==================================================
+gender=Male                                 1.0221
+SeniorCitizen                               0.8061
+Partner=No                                  0.9981
+Dependents=Yes                              1.1639
+tenure                                      1.0622
+PhoneService=Yes                            0.8326
+MultipleLines=No phone service              1.2011
+MultipleLines=No                            1.2075
+MultipleLines=Yes                           0.7721
+InternetService=DSL                         2.2114
+InternetService=Fiber optic                 0.3834
+InternetService=No                          1.4004
+OnlineSecurity=No                            0.804
+OnlineSecurity=Yes                          0.9874
+OnlineSecurity=No internet service          1.4004
+OnlineBackup=Yes                            0.8743
+OnlineBackup=No                             0.8969
+OnlineBackup=No internet service            1.4004
+DeviceProtection=No                         0.9506
+DeviceProtection=Yes                        0.8203
+DeviceProtection=No internet service        1.4004
+TechSupport=No                              0.8135
+TechSupport=Yes                             0.9734
+TechSupport=No internet service             1.4004
+StreamingTV=No                              1.1896
+StreamingTV=Yes                             0.6587
+StreamingTV=No internet service             1.4004
+StreamingMovies=No                          1.1976
+StreamingMovies=Yes                         0.6556
+StreamingMovies=No internet service         1.4004
+Contract=Month-to-month                     0.5443
+Contract=One year                           1.0587
+Contract=Two year                           2.1642
+PaperlessBilling=No                         1.4079
+PaymentMethod=Electronic check              0.7812
+PaymentMethod=Mailed check                  1.1232
+PaymentMethod=Bank transfer (automatic)       1.06
+PaymentMethod=Credit card (automatic)       1.1562
+MonthlyCharges                              1.0414
+TotalCharges                                0.9997
+
+
+Time taken to build model: 0.29 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5655               80.2925 %
+Kappa statistic                          0.467 
+Mean absolute error                      0.2713
+Root mean squared error                  0.3682
+Relative absolute error                 69.5745 %
+Root relative squared error             83.3961 %
+Total Number of Instances             7043     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,895    0,452    0,846      0,895    0,870      0,470    0,845     0,936     No
+                 0,548    0,105    0,653      0,548    0,596      0,470    0,845     0,653     Yes
+Weighted Avg.    0,803    0,360    0,795      0,803    0,797      0,470    0,845     0,861     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4631  543 |    a = No
+  845 1024 |    b = Yes
+
