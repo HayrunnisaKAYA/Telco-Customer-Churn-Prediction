@@ -3,11 +3,11 @@
 Proje Başlığı: Telekom Müşteri Kaybı (Churn) Tahmini ve Web Arayüzü
 Dönem: Bahar 2026
 
-## TAKIM ÜYELERİ VE ROLLERİ:
+### TAKIM ÜYELERİ VE ROLLERİ:
 1. Fatma Nur Atagün - 231041022 -> Veri ve Model Mühendisi
 2. Hayrunnisa Kaya - 231041047 -> Değerlendirme ve Raporlama
 
-KLASÖR YAPISI VE İÇERİKLERİ:
+### KLASÖR YAPISI VE İÇERİKLERİ:
 📁 veri/
    - WA_Fn-UseC_-Telco-Customer-Churn.csv (Kaggle'dan alınan orijinal raw veri)
    - Telco_Churn_Temiz.csv (Python ile ön işlemeden geçirilmiş temiz veri)
