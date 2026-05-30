@@ -46,6 +46,6 @@ TALEP EDİLEN BONUSLAR (Rapor kapağında da belirtilmiştir):
 2. XAI (SHAP) Analizi ve Görselleştirme (+3 Puan)
 3. Hata Analizi / Confusion Matrix İş Değeri Yorumlaması (+2 Puan)
 4. Streamlit ile uçtan uca etkileşimli web arayüzü geliştirilmesi (Açık Uçlu Bonus / İş Değeri)
-5. Projenin GitHub Reposu olarak teslim edilmesi (+5 Puan) - Repo Linki: https://github.com/fatmanuratagun/Telco-Customer-Churn-Prediction
+5. Projenin GitHub Reposu olarak teslim edilmesi (+5 Puan) - Repo Linki: https://github.com/HayrunnisaKAYA/Telco-Customer-Churn-Prediction
 
 Projeyi incelemeye ayırdığınız vakit için teşekkür ederiz.
