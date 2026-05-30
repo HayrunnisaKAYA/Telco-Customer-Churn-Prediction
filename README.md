@@ -1,9 +1,9 @@
 
-**BLM308 VERİ MADENCİLİĞİ FİNAL PROJESİ
+# BLM308 VERİ MADENCİLİĞİ FİNAL PROJESİ
 Proje Başlığı: Telekom Müşteri Kaybı (Churn) Tahmini ve Web Arayüzü
 Dönem: Bahar 2026
 
-TAKIM ÜYELERİ VE ROLLERİ:
+## TAKIM ÜYELERİ VE ROLLERİ:
 1. Fatma Nur Atagün - 231041022 -> Veri ve Model Mühendisi
 2. Hayrunnisa Kaya - 231041047 -> Değerlendirme ve Raporlama
 
@@ -27,7 +27,7 @@ KLASÖR YAPISI VE İÇERİKLERİ:
    - CRISP-DM süreçlerini, analizleri, metrikleri ve iş değeri yorumlarını içeren final raporu.
 
 
-**PROJEYİ (WEB ARAYÜZÜNÜ) ÇALIŞTIRMA TALİMATLARI:
+# PROJEYİ (WEB ARAYÜZÜNÜ) ÇALIŞTIRMA TALİMATLARI:
 
 
 Projeye eklenen "Açık Uçlu Bonus" kapsamında, eğitilen model bir web arayüzüne (Streamlit) entegre edilmiştir. Uygulamayı ayağa kaldırmak için:
